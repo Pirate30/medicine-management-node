@@ -17,7 +17,7 @@ Technology used:
     
         api url: localhost:8800/api/products/seed
         method: post
-        body: {
+        body(test/demo): {
                 "name": "medicine0",
                 "image": "image0",
                 "brand": "brand0",
