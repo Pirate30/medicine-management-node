@@ -13,6 +13,8 @@ Technology used:
 
 =====>
     1) insert operation
+    
+    
         api url: localhost:8800/api/products/seed
         method: post
         body: {
