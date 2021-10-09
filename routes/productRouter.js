@@ -47,7 +47,7 @@ router.get("/seed/:id", async (req, res) => {
 });
 
 // updating the medicine
-router.post("/seed/:id", async (req, res) => {
+router.put("/seed/:id", async (req, res) => {
   try {
     // check if the product corresponding to id exists trying to updating that product with the product in body
     const updatedProduct = await Product.findByIdAndUpdate(
