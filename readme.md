@@ -13,7 +13,6 @@ Technology used:
 
 =====>
     1) insert operation
-    
         api url: localhost:8800/api/products/seed
         method: post
         body: {
@@ -36,7 +35,7 @@ Technology used:
      4)update the medicine
         api url: http://localhost:8800/api/products/seed/(id)
         method: put
-        body: (same as insert but with make updated field)
+        body: (same as insert but with updated field)
         
      5) delete the medicine
         api url:http://localhost:8800/api/products/seed/delete/(id)
