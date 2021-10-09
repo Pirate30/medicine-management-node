@@ -69,7 +69,7 @@ router.put("/seed/:id", async (req, res) => {
 });
 
 // deleting the medicine
-router.post("/seed/delete/:id", async (req, res) => {
+router.delete("/seed/delete/:id", async (req, res) => {
   //   console.log("delete request came");
   // check if the requested id exists & delete it
   try {
